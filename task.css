@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    
 }
 ol, ul {
 	list-style: none;
@@ -47,8 +48,10 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
 .container{
-    width: 1920px;
+    max-width: 1920px;
     display:flex;
     background:rgb(202, 226, 202);
     flex-direction: column;
@@ -61,7 +64,7 @@ table {
 .box1{
     display: flex;
     flex-direction: row;
-    width: 1920px;
+    max-width: 1920px;
     border:2px solid #ccc;
     justify-content: center;
     margin-top: 1px;
@@ -82,19 +85,19 @@ table {
 .box2{
     display:flex;
     flex-direction: row;
-    width: 1920px;
+    max-width: 1920px;
     margin-top: 1px;
     margin-bottom: 1px;
 }
 .box2 img{
-    width: 1920px;
+    max-width: 1920px;
     border:#ccc 2px solid;
 }
 .list{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 1920px;
+    max-width: 1920px;
     padding: 10px;
     justify-content:space-around;
 }
@@ -102,7 +105,7 @@ table {
     display:flex;
     flex-direction: row;
     
-    width: 1920px;
+    max-width: 1920px;
     border:2px solid #ccc;}
 
 .list-item{
@@ -110,7 +113,7 @@ table {
     flex-direction: row;
     justify-content:center;
     flex-wrap: wrap;
-    width: 550px;
+    max-width: 550px;
     border:5px solid #ccc;
     padding: 15px;
     margin-bottom: 35px;
@@ -119,7 +122,7 @@ table {
 }
 .list-item img{
     display: flex;
-    width: 530px;
+    max-width: 530px;
     height: 750px;
     flex-direction: row;
     flex-wrap: wrap;
@@ -146,7 +149,7 @@ table {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 550px;
+    max-width: 550px;
     padding: 15px;
     border:5px solid #ccc;
     margin-bottom: 10px;
@@ -157,7 +160,7 @@ table {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 530px;
+    max-width: 530px;
     height: 330px;
     border:2px solid #ccc;
     padding: 10px;
@@ -185,7 +188,7 @@ table {
     justify-content:center;
     text-align: center;
     flex-wrap: wrap;
-    width: 150px;
+    max-width: 150px;
     padding: 15px;
     border:5px solid #ccc;
     border-radius: 50px;
